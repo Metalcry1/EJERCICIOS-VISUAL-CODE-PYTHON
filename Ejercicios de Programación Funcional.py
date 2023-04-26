@@ -42,11 +42,23 @@ total_basket = calc_total_basket()
 print('La cesta de la compra original',basket)
 print('El total de la cesta de la compra original es: ',total_basket, '€')
 
+print()
+
 basket_with_discount, total_with_discount = calc_offer()
 print('La cesta de la compra aplicado el descuento',basket_with_discount)
 print('El total de la cesta de la compra con descuento es: ',total_with_discount, '€')
 
+print()
 
 basket_with_iva, total_with_iva = calc_iva()
 print('La cesta de la compra aplicado el IVA',basket_with_iva)
 print('El total de la cesta de la compra con IVA es: ',total_with_iva, '€')
+
+""" OUTPUT
+La cesta de la compra original {'Memoria Ram': 75.0, 'Placa base': 200.0, 'Procesador': 350.0, 'Tarjeta grafica': 750.0}
+El total de la cesta de la compra original es:  1375.0 €
+La cesta de la compra aplicado el descuento {'Memoria Ram': 61.98347107438017, 'Placa base': 165.28925619834712, 'Procesador': 289.25619834710744, 'Tarjeta grafica': 619.8347107438017}
+El total de la cesta de la compra con descuento es:  1136.3636363636365 €
+La cesta de la compra aplicado el IVA {'Memoria Ram': 61.98347107438017, 'Placa base': 165.28925619834712, 'Procesador': 289.25619834710744, 'Tarjeta grafica': 619.8347107438017}
+El total de la cesta de la compra con IVA es:  1663.75 €
+"""
