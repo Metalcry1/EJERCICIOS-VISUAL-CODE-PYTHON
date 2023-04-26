@@ -57,8 +57,10 @@ print('El total de la cesta de la compra con IVA es: ',round(total_with_iva,2), 
 """ OUTPUT
 La cesta de la compra original {'Memoria Ram': 75.0, 'Placa base': 200.0, 'Procesador': 350.0, 'Tarjeta grafica': 750.0}
 El total de la cesta de la compra original es:  1375.0 €
-La cesta de la compra aplicado el descuento {'Memoria Ram': 61.98347107438017, 'Placa base': 165.28925619834712, 'Procesador': 289.25619834710744, 'Tarjeta grafica': 619.8347107438017}
-El total de la cesta de la compra con descuento es:  1136.3636363636365 €
-La cesta de la compra aplicado el IVA {'Memoria Ram': 61.98347107438017, 'Placa base': 165.28925619834712, 'Procesador': 289.25619834710744, 'Tarjeta grafica': 619.8347107438017}
+
+La cesta de la compra aplicado el descuento {'Memoria Ram': 61.98, 'Placa base': 165.29, 'Procesador': 289.26, 'Tarjeta grafica': 619.83}
+El total de la cesta de la compra con descuento es:  1136.36 €
+
+La cesta de la compra aplicado el IVA {'Memoria Ram': 61.98, 'Placa base': 165.29, 'Procesador': 289.26, 'Tarjeta grafica': 619.83}
 El total de la cesta de la compra con IVA es:  1663.75 €
 """
