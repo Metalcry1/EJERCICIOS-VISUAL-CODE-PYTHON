@@ -5,7 +5,6 @@ space_white = ''
 
 def more_space(space,space_white):
     contador=0
-   
     while contador <= largo_cadena-1:
         space_white += space
         contador= contador+1
